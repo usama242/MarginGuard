@@ -1,0 +1,38 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="55%" stop-color="#111A2E"/>
+      <stop offset="100%" stop-color="#090D18"/>
+    </linearGradient>
+    <linearGradient id="goldSlab" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="glassShield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="50%" stop-color="#94A3B8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="specularBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Squircle Canvas -->
+  <rect width="1024" height="1024" rx="224" fill="url(#bgGrad)"/>
+  <!-- Ambient Gold Backlight Glow -->
+  <circle cx="420" cy="420" r="280" fill="#F59E0B" opacity="0.24"/>
+  <circle cx="640" cy="620" r="260" fill="#06B6D4" opacity="0.18"/>
+  <!-- Rear Tilted Gold Ingot Prism (20x Leverage Angle) -->
+  <g transform="rotate(-14 450 470)">
+    <rect x="260" y="250" width="380" height="440" rx="76" fill="url(#goldSlab)"/>
+  </g>
+  <!-- Foreground Translucent Liquid Glass Shield -->
+  <rect x="330" y="290" width="430" height="460" rx="88" fill="url(#glassShield)" stroke="url(#specularBorder)" stroke-width="8"/>
+  <!-- Emerald Margin Health Trend Line Inside Glass -->
+  <path d="M 380 570 Q 470 520, 535 460 T 705 385" fill="none" stroke="#10B981" stroke-width="22" stroke-linecap="round"/>
+  <!-- Coral 50% Stop-Out Threshold Line -->
+  <line x1="375" y1="645" x2="715" y2="645" stroke="#F43F5E" stroke-width="14" stroke-dasharray="22 16" stroke-linecap="round"/>
+</svg>

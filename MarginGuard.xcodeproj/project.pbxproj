@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045E1BE3FC0355F36EC1F408 /* MarginGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA232D11ED962CF738B021EF /* MarginGuardApp.swift */; };
+		0A6D2FA7F83B69A53AE27994 /* CFDModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4F091D7F0FEA7613934BC /* CFDModels.swift */; };
+		16229B7AA322558836450503 /* MarginGuardWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7DE2A3B56F8B44776D923A7D /* MarginGuardWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		163A01E771E57B737FFC97CF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37A0A3385E72A3C46A5D14 /* DashboardView.swift */; };
+		20E89F3438C5A38090B6FFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D4F851D2C930BB61E3E8E7 /* Assets.xcassets */; };
+		225D973A945CEA534B1DC214 /* CFDEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BECC336879F41F88B680A /* CFDEngine.swift */; };
+		2B032E1E9426F9F90947B1F4 /* PositionAndBalanceSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE9F01E4C63B726D4DF774 /* PositionAndBalanceSheets.swift */; };
+		3A283585E332D4B27B43CE0B /* AlertsAndSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF243B5047DDA54CCB423EE /* AlertsAndSettingsView.swift */; };
+		52EA522A48264DF21B17BBD5 /* CFDModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F4F091D7F0FEA7613934BC /* CFDModels.swift */; };
+		5922AD4CCF35F9D0BE53E8D4 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B36BDC332B230539A86095D /* MarketDataService.swift */; };
+		5B677E450CA96A03A48AA881 /* ChartsAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C2FCAAC25035CF0DF0A10A /* ChartsAnalyticsView.swift */; };
+		5E5430775D0CCC43463101BF /* OnboardingWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F439FA03CF1C943BAD768BB /* OnboardingWizardView.swift */; };
+		7C4F16E8A1B54213A9CBA028 /* MarketPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F16E8A1B54213A9CBA027 /* MarketPriceService.swift */; };
+		836DF047C41CB404FFDA6BC6 /* LiquidGlassTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D26F2E4E8EEBD76C5CEA91 /* LiquidGlassTheme.swift */; };
+		8A987B036104042B854087A4 /* LiquidGlassTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D26F2E4E8EEBD76C5CEA91 /* LiquidGlassTheme.swift */; };
+		A63470D22149E8F5C534B94E /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A0A6C1EA7DFC6A575AD2B /* LiveActivityAttributes.swift */; };
+		AAAD16D567CFB2D11039F3A3 /* PortfolioStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82ED6A481D1B0EC00018E8C /* PortfolioStore.swift */; };
+		C1E91D2AC534B1E8D0A290B9 /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A0A6C1EA7DFC6A575AD2B /* LiveActivityAttributes.swift */; };
+		DE80B569FF7D221AB235F9A4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E738901FEF1A0D4FC6F627D /* NotificationManager.swift */; };
+		EF861D07FA17B091A5C0B9AC /* MarginGuardWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7253D909161F6191BD0CA4 /* MarginGuardWidgetBundle.swift */; };
+		F2D16ED9D294D92819FC5EED /* CFDEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BECC336879F41F88B680A /* CFDEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BAC666DB524729891CA8809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 237ECC1C1265794BDA778300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57ECBE5374E197B2890795BF;
+			remoteInfo = MarginGuardWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B22480854D4B5746DE0339FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				16229B7AA322558836450503 /* MarginGuardWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F439FA03CF1C943BAD768BB /* OnboardingWizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWizardView.swift; sourceTree = "<group>"; };
+		23F4F091D7F0FEA7613934BC /* CFDModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFDModels.swift; sourceTree = "<group>"; };
+		353F7BE1D678613A57F5C51A /* MarginGuardWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarginGuardWidget.entitlements; sourceTree = "<group>"; };
+		35D4F851D2C930BB61E3E8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E738901FEF1A0D4FC6F627D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		52AE9F01E4C63B726D4DF774 /* PositionAndBalanceSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionAndBalanceSheets.swift; sourceTree = "<group>"; };
+		5C8A0A6C1EA7DFC6A575AD2B /* LiveActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityAttributes.swift; sourceTree = "<group>"; };
+		6B36BDC332B230539A86095D /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
+		6E7253D909161F6191BD0CA4 /* MarginGuardWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginGuardWidgetBundle.swift; sourceTree = "<group>"; };
+		7C4F16E8A1B54213A9CBA027 /* MarketPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPriceService.swift; sourceTree = "<group>"; };
+		7DE2A3B56F8B44776D923A7D /* MarginGuardWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarginGuardWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82331168A5BC9D10F44EDF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1C2FCAAC25035CF0DF0A10A /* ChartsAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsAnalyticsView.swift; sourceTree = "<group>"; };
+		A2D26F2E4E8EEBD76C5CEA91 /* LiquidGlassTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassTheme.swift; sourceTree = "<group>"; };
+		AA232D11ED962CF738B021EF /* MarginGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginGuardApp.swift; sourceTree = "<group>"; };
+		AA37A0A3385E72A3C46A5D14 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C6F2403941350342D0AD08B9 /* MarginGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarginGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF243B5047DDA54CCB423EE /* AlertsAndSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsAndSettingsView.swift; sourceTree = "<group>"; };
+		CE963886D0A98D8150DBE507 /* MarginGuard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarginGuard.entitlements; sourceTree = "<group>"; };
+		D65BECC336879F41F88B680A /* CFDEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFDEngine.swift; sourceTree = "<group>"; };
+		E82ED6A481D1B0EC00018E8C /* PortfolioStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioStore.swift; sourceTree = "<group>"; };
+		EA0D14254CE8AE09584FCBA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		58BE7E44944281277A3A3F25 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D65BECC336879F41F88B680A /* CFDEngine.swift */,
+				23F4F091D7F0FEA7613934BC /* CFDModels.swift */,
+				A2D26F2E4E8EEBD76C5CEA91 /* LiquidGlassTheme.swift */,
+				5C8A0A6C1EA7DFC6A575AD2B /* LiveActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ABDBFFEE7C43543EAA7617BB = {
+			isa = PBXGroup;
+			children = (
+				C0862FF806D269A20BB2574A /* MarginGuard */,
+				F9DD97733E4CCD36AD63DF18 /* MarginGuardWidget */,
+				58BE7E44944281277A3A3F25 /* Shared */,
+				AF2844E93EE9619CAC84C6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2844E93EE9619CAC84C6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2403941350342D0AD08B9 /* MarginGuard.app */,
+				7DE2A3B56F8B44776D923A7D /* MarginGuardWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0862FF806D269A20BB2574A /* MarginGuard */ = {
+			isa = PBXGroup;
+			children = (
+				CCF243B5047DDA54CCB423EE /* AlertsAndSettingsView.swift */,
+				35D4F851D2C930BB61E3E8E7 /* Assets.xcassets */,
+				A1C2FCAAC25035CF0DF0A10A /* ChartsAnalyticsView.swift */,
+				AA37A0A3385E72A3C46A5D14 /* DashboardView.swift */,
+				82331168A5BC9D10F44EDF2D /* Info.plist */,
+				CE963886D0A98D8150DBE507 /* MarginGuard.entitlements */,
+				AA232D11ED962CF738B021EF /* MarginGuardApp.swift */,
+				6B36BDC332B230539A86095D /* MarketDataService.swift */,
+				7C4F16E8A1B54213A9CBA027 /* MarketPriceService.swift */,
+				4E738901FEF1A0D4FC6F627D /* NotificationManager.swift */,
+				1F439FA03CF1C943BAD768BB /* OnboardingWizardView.swift */,
+				E82ED6A481D1B0EC00018E8C /* PortfolioStore.swift */,
+				52AE9F01E4C63B726D4DF774 /* PositionAndBalanceSheets.swift */,
+			);
+			path = MarginGuard;
+			sourceTree = "<group>";
+		};
+		F9DD97733E4CCD36AD63DF18 /* MarginGuardWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EA0D14254CE8AE09584FCBA9 /* Info.plist */,
+				353F7BE1D678613A57F5C51A /* MarginGuardWidget.entitlements */,
+				6E7253D909161F6191BD0CA4 /* MarginGuardWidgetBundle.swift */,
+			);
+			path = MarginGuardWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2068FEDBF0355F5E5C15DC62 /* MarginGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D5BF254F75DAA71FC7BCED /* Build configuration list for PBXNativeTarget "MarginGuard" */;
+			buildPhases = (
+				27867CCABBFAAEF1CBB24D59 /* Sources */,
+				B5BA34DC7444A9D973F72101 /* Resources */,
+				B22480854D4B5746DE0339FF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB6D39415D441D32000CAD5 /* PBXTargetDependency */,
+			);
+			name = MarginGuard;
+			packageProductDependencies = (
+			);
+			productName = MarginGuard;
+			productReference = C6F2403941350342D0AD08B9 /* MarginGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57ECBE5374E197B2890795BF /* MarginGuardWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F6EFE48CFD0DE28368C626 /* Build configuration list for PBXNativeTarget "MarginGuardWidgetExtension" */;
+			buildPhases = (
+				A4A10DDD85058D7FF78282E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarginGuardWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = MarginGuardWidgetExtension;
+			productReference = 7DE2A3B56F8B44776D923A7D /* MarginGuardWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		237ECC1C1265794BDA778300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+			};
+			buildConfigurationList = A3BF56DC6C5967872666C3D8 /* Build configuration list for PBXProject "MarginGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = ABDBFFEE7C43543EAA7617BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF2844E93EE9619CAC84C6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2068FEDBF0355F5E5C15DC62 /* MarginGuard */,
+				57ECBE5374E197B2890795BF /* MarginGuardWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5BA34DC7444A9D973F72101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E89F3438C5A38090B6FFAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27867CCABBFAAEF1CBB24D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A283585E332D4B27B43CE0B /* AlertsAndSettingsView.swift in Sources */,
+				225D973A945CEA534B1DC214 /* CFDEngine.swift in Sources */,
+				52EA522A48264DF21B17BBD5 /* CFDModels.swift in Sources */,
+				5B677E450CA96A03A48AA881 /* ChartsAnalyticsView.swift in Sources */,
+				163A01E771E57B737FFC97CF /* DashboardView.swift in Sources */,
+				8A987B036104042B854087A4 /* LiquidGlassTheme.swift in Sources */,
+				C1E91D2AC534B1E8D0A290B9 /* LiveActivityAttributes.swift in Sources */,
+				045E1BE3FC0355F36EC1F408 /* MarginGuardApp.swift in Sources */,
+				5922AD4CCF35F9D0BE53E8D4 /* MarketDataService.swift in Sources */,
+				7C4F16E8A1B54213A9CBA028 /* MarketPriceService.swift in Sources */,
+				DE80B569FF7D221AB235F9A4 /* NotificationManager.swift in Sources */,
+				5E5430775D0CCC43463101BF /* OnboardingWizardView.swift in Sources */,
+				AAAD16D567CFB2D11039F3A3 /* PortfolioStore.swift in Sources */,
+				2B032E1E9426F9F90947B1F4 /* PositionAndBalanceSheets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A10DDD85058D7FF78282E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D16ED9D294D92819FC5EED /* CFDEngine.swift in Sources */,
+				0A6D2FA7F83B69A53AE27994 /* CFDModels.swift in Sources */,
+				836DF047C41CB404FFDA6BC6 /* LiquidGlassTheme.swift in Sources */,
+				A63470D22149E8F5C534B94E /* LiveActivityAttributes.swift in Sources */,
+				EF861D07FA17B091A5C0B9AC /* MarginGuardWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB6D39415D441D32000CAD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57ECBE5374E197B2890795BF /* MarginGuardWidgetExtension */;
+			targetProxy = 9BAC666DB524729891CA8809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B8521F1E910E0511CC6923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 59QG663Q3Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		737D6D6763908E7C9C3B3883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MarginGuardWidget/MarginGuardWidget.entitlements;
+				INFOPLIST_FILE = MarginGuardWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.marginguard.app.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86ECCFF18D1DA77F4C0DC52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarginGuard/MarginGuard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarginGuard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.marginguard.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		939B587CF7416297D1C12E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 59QG663Q3Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D7262A8D9617DD6B08DF2E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarginGuard/MarginGuard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MarginGuard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.marginguard.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34E1C0A09FD70577149E800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MarginGuardWidget/MarginGuardWidget.entitlements;
+				INFOPLIST_FILE = MarginGuardWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.marginguard.app.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D5BF254F75DAA71FC7BCED /* Build configuration list for PBXNativeTarget "MarginGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7262A8D9617DD6B08DF2E52 /* Debug */,
+				86ECCFF18D1DA77F4C0DC52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3BF56DC6C5967872666C3D8 /* Build configuration list for PBXProject "MarginGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8521F1E910E0511CC6923D /* Debug */,
+				939B587CF7416297D1C12E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9F6EFE48CFD0DE28368C626 /* Build configuration list for PBXNativeTarget "MarginGuardWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E1C0A09FD70577149E800 /* Debug */,
+				737D6D6763908E7C9C3B3883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 237ECC1C1265794BDA778300 /* Project object */;
+}
